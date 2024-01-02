@@ -7,7 +7,7 @@ global conn
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="UK060987s@",
+    password="root",
     database="hoteldb"
 )
 
@@ -81,7 +81,7 @@ def get_hotels_by_rating(rating):
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="UK060987s@",
+            password="root",
             database="hoteldb"
         )
 
@@ -129,7 +129,7 @@ def book_hotel(hotel_name,check_in_date, check_out_date):
         connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="UK060987s@",
+        password="root",
         database="hoteldb"
 )
 
@@ -180,7 +180,7 @@ def search_hotels_by_amenities(amenities):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="UK060987s@",
+            password="root",
             database="hoteldb"
 )
 
@@ -217,7 +217,7 @@ def get_hotel_info(hotel_name):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="UK060987s@",
+            password="root",
             database="hoteldb"
         )
         cursor = connection.cursor()
@@ -248,7 +248,7 @@ def find_hotel_by_description(description):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="UK060987s@",
+            password="root",
             database="hoteldb"
         )
 
