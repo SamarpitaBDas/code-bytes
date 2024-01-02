@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="xyz.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel AI Chatbot</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="profile-container">
+                <img class="profile-pic" src="pfp.png" alt="Profile Picture">
+                <div class="profile-name">TBO</div>
+            </div>
+            <div class="chat-container">
+                <div class="chat-box" id="chatBox">
+                    <!-- Chat messages go here -->
+                </div>
+                <div class="input-container">
+                    <input class="inputmsg" type="text" id="userInput" placeholder="Type a message..." onkeypress="sendMessage(event)">
+                    <button class="send-button" id="sendButton"onclick="sendMessage()">
+                        <img class="pfp" src="send.png"  alt="send">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="chatbot .js"></script>
+</body>
+</html>

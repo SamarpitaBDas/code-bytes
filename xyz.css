@@ -1,0 +1,119 @@
+body {
+    background-color: #b3d6d7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item {
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e2daff;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+
+.inputmsg {
+    flex-grow: 1;
+    margin-right: 10px;
+    height:40px;
+    border-radius:20px;
+    border-width:2px;
+    border-color:black;
+}
+
+
+.chat-box {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+
+
+.ai-msg {
+    background-color: #e0f7fa;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    align-self: flex-end;
+    word-wrap: break-word;
+    width: auto;
+    clear: both;
+    max-width: max-content;
+    min-height: min-content;
+}
+.user-msg {
+    background-color: #c6e2ff;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-self: flex-start;
+    border-radius: 8px;
+    clear: both;
+    word-wrap: break-word;
+    width: auto;
+    max-width: max-content;
+    min-height: min-content;
+}
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 5px;
+    
+}
+
+.profile-pic {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top:20px;
+    margin-bottom: 10px; 
+}
+
+.profile-name {
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top:-45px;
+}
+
+.send-button{
+    border-radius: 20px;width:45px;height:45px;background-color:#75b5b7;
+}
+.pfp{
+    width:25px;
+    height:25px;
+    align-items:center;
+}
